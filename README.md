@@ -10,6 +10,8 @@
 
 ## 二. 语音识别
 1. [k2语音识别.md](1.语音识别/k2语音识别.md)
+1. meta出手了，语音翻译，识别，生成...：https://github.com/facebookresearch/seamless_communication
+
 
 ## 三. GPT
 
@@ -17,7 +19,7 @@
 1. [bert-vits2学习.md](bert-vits2学习.md)
 
 ## 五. 数字人驱动
-[wav2lip.md](wav2lip.md)
+1. [wav2lip.md](wav2lip.md)
 
 ## 六. 其他
 1. [参考项目.md](参考项目.md)

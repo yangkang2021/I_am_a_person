@@ -18,6 +18,11 @@
 1. [k2语音识别.md](1.语音识别/k2语音识别.md)
 
 ## 三. 数字人大脑--大语言模型
+1. 小模型
+   - miniCPM
+   - MiniCPM-V
+   - Phi-3-v
+   - gemna2b
 - [学习李宏毅的《穷人如何低资源复刻自己的ChatGPT》](chatGPT/学习李宏毅的《穷人如何低资源复刻自己的ChatGPT》.md)
 - [chatGPT应用](chatGPT/chatGPT应用.md)
 - [chatGPT怎么做到同一问题得到不同的答案](chatGPT/chatGPT怎么做到同一问题得到不同的答案.md)
@@ -30,7 +35,11 @@
 2. so-vits
 2. [bert-vits2学习.md](bert-vits2学习.md)
 2. gpt-sovits
-3. openvoice
+3. openvoice与MeloTTS
+4. 唱歌tts(singing voice conversion)：so-vits-svc，NeuCoSVC
+5. XTTS 
+6. fish-speech
+7. ChatTTS： https://github.com/2noise/ChatTTS
 
 ## 五. 数字人驱动
 1. [真人数字人项目](数字人.md)

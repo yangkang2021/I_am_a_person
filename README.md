@@ -16,19 +16,17 @@
 ## 二. 数字人输入--语音识别
 1. [AI语音-01-概述](ASR-TTS/AI语音-01-概述.md)
 1. [k2语音识别.md](1.语音识别/k2语音识别.md)
+2. whisper
+3. funasr+Paraformer:https://github.com/modelscope/FunASR
 
 ## 三. 数字人大脑--大语言模型
-1. 小模型
+1. 角色扮演模型
+   - Index-1.9B-Character ：https://github.com/bilibili/Index-1.9B
+2. 小模型
    - miniCPM
    - MiniCPM-V
    - Phi-3-v
    - gemna2b
-- [学习李宏毅的《穷人如何低资源复刻自己的ChatGPT》](chatGPT/学习李宏毅的《穷人如何低资源复刻自己的ChatGPT》.md)
-- [chatGPT应用](chatGPT/chatGPT应用.md)
-- [chatGPT怎么做到同一问题得到不同的答案](chatGPT/chatGPT怎么做到同一问题得到不同的答案.md)
-- [chatGLM微调训练.md](chatGPT/chatGLM微调训练.md)
-- [moss体验](chatGPT/moss体验.md)
-- [gpt模型汇总](chatGPT/gpt模型汇总.md)
 
 ## 四. 数字人讲话唱歌--语音合成
 1. vits，vits2
@@ -40,16 +38,11 @@
 5. XTTS 
 6. fish-speech
 7. ChatTTS： https://github.com/2noise/ChatTTS
+8. CosyVoice
 
 ## 五. 数字人驱动
 1. [真人数字人项目](数字人.md)
 2. [数字人-01-方案概述](数字人/数字人-01-方案概述.md)
-1. 照片数字人sadtalker
-   - [数字人-02-sadtalker简介](数字人/数字人-02-sadtalker简介.md)
-   - [数字人-03-sadtalker源码解读](数字人/数字人-03-sadtalker源码解读.md)
-   - [数字人-04-sadtalker模型结构与训练方法](数字人/数字人-04-sadtalker模型结构与训练方法.md)
-   - [数字人-05-sadtalker性能测试与优化](数字人/数字人-05-sadtalker性能测试与优化.md)
-   - [数字人-06-sadtalker最佳实践](数字人/数字人-06-sadtalker最佳实践.md)
 1. 虚拟数字人
    - [虚幻引擎MetaHuman数字人](ue/README.md)
    - [ue和unity数字人.md](ue/ue和unity数字人.md)

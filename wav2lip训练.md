@@ -34,14 +34,32 @@ preprocessed_root (lrs2_preprocessed)
 1. lrs2
    - https://aistudio.baidu.com/datasetoverview/2/1
    - https://aistudio.baidu.com/datasetdetail/228857
+   - main: 48165个视频，2611592帧。
+   - 160x160
 2. CMLR
+   - https://www.vipazoo.cn/CMLR.html 官网提供了百度网盘链接
    - https://pan.baidu.com/share/init?surl=bXj_LZy1wTInQE9ceJl7UA&pwd=1122
+   - 480x360
 3. AVSpeech
 4. LRW1000:
    - https://pan.baidu.com/share/init?surl=XBT-5tAJxeIQ5UiEz8-9gQ&pwd=i9kp
+5. GRID
+    - https://spandh.dcs.shef.ac.uk//gridcorpus/
+    - 直接能下载 
+    - normal quality (360x288; ~1kbit/s) and high quality (720x576; ~6kbit/s).
+1、HDTF https://pan.baidu.com/s/1UQ0I3L3FKxhA_PcS3YrL6w  提取码：elej
+   - 1280x720
+2、MEAD https://github.com/uniBruce/Mead
+   - https://wywu.github.io/projects/MEAD/MEAD.html
+   - 有百度网盘下载
+   - 1920x1080
+3、VOX https://pan.baidu.com/share/init?surl=wBL34jZRSMq4aJX-l3_pBw   提取码：xkfj
+5. 汇总：
+   - https://blog.csdn.net/u011570979/article/details/136928045
+   - https://blog.csdn.net/lsb2002/article/details/135999742
    
 ## 优化方案
-1. 高清人脸：192 x 288，256，288
+1. 高清人脸：192 x 288，256，288，Talking-Face-Generation
 2. 超分：
    - coderformer
    - gfpgan
@@ -59,7 +77,7 @@ preprocessed_root (lrs2_preprocessed)
 4. 参考项目
    - https://github.com/leeguandong/Wav2lipAll
    - IP_LAP：训练了一个mask解决方框问题
-   - bjfrbjx/stream-wav2lip：头脸分离、嘴型替换、回补背景三个步骤分离
+   - https://github.com/bjfrbjx/stream-wav2lip：头脸分离、嘴型替换、回补背景三个步骤分离
    - wav2lip-hq系列
      - https://github.com/Markfryazino/wav2lip-hq
      - https://github.com/GucciFlipFlops1917/wav2lip-hq-updated-ESRGAN
@@ -71,4 +89,5 @@ preprocessed_root (lrs2_preprocessed)
    - wav2lip与sd结合
      - https://github.com/numz/wav2lip_uhq
      - https://github.com/numz/sd-wav2lip-uhq
-   - https://github.com/yukyeongleee/Wav2Lip-HQ
+     - https://github.com/yukyeongleee/Wav2Lip-HQ
+    

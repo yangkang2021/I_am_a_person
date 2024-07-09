@@ -12,6 +12,8 @@
 1. AI绘图（stableDiffusion）
    - [AI绘图系列](stableDiffusion/README.md)
    - [AI绘画的应用方向](stableDiffusion/AI绘画的应用方向.md)
+1. 人脸人体检测分割
+   - https://github.com/1adrianb/face-alignment
 
 ## 二. 数字人输入--语音识别
 1. [AI语音-01-概述](ASR-TTS/AI语音-01-概述.md)
@@ -22,6 +24,7 @@
 ## 三. 数字人大脑--大语言模型
 1. 角色扮演模型
    - Index-1.9B-Character ：https://github.com/bilibili/Index-1.9B
+   - Character-LLM：https://github.com/choosewhatulike/trainable-agents
 2. 小模型
    - miniCPM
    - MiniCPM-V
@@ -51,6 +54,7 @@
    - [3D高斯gaussian-splatting.md](3D高斯gaussian-splatting.md)
    - 苹果联合德国马普所推出的，基于高斯函数的3D数字人合成工具HUGS
    - https://machinelearning.apple.com/research/hugs
+3. [动捕](动捕.md)
 
 ## 七. 其他
 1. [参考项目](参考项目.md)

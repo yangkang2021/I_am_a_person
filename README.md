@@ -14,6 +14,8 @@
    - [AI绘画的应用方向](stableDiffusion/AI绘画的应用方向.md)
 1. 人脸人体检测分割
    - https://github.com/1adrianb/face-alignment
+   - face-parsing
+   - DeepLabV3
 
 ## 二. 数字人输入--语音识别
 1. [AI语音-01-概述](ASR-TTS/AI语音-01-概述.md)

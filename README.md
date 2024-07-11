@@ -16,12 +16,14 @@
    - https://github.com/1adrianb/face-alignment
    - face-parsing
    - DeepLabV3
+   - https://github.com/PeterL1n/RobustVideoMatting
 
 ## 二. 数字人输入--语音识别
 1. [AI语音-01-概述](ASR-TTS/AI语音-01-概述.md)
 1. [k2语音识别.md](1.语音识别/k2语音识别.md)
 2. whisper
 3. funasr+Paraformer:https://github.com/modelscope/FunASR
+4. SenseVoice：https://github.com/FunAudioLLM/SenseVoice
 
 ## 三. 数字人大脑--大语言模型
 1. 角色扮演模型
@@ -43,7 +45,7 @@
 5. XTTS 
 6. fish-speech
 7. ChatTTS： https://github.com/2noise/ChatTTS
-8. CosyVoice
+8. CosyVoice： https://github.com/FunAudioLLM/CosyVoice
 
 ## 五. 数字人驱动
 1. [真人数字人项目](数字人.md)

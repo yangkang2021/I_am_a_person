@@ -36,16 +36,21 @@
    - gemna2b
 
 ## 四. 数字人讲话唱歌--语音合成
-1. vits，vits2
-2. so-vits
-2. [bert-vits2学习.md](bert-vits2学习.md)
-2. gpt-sovits
-3. openvoice与MeloTTS
-4. 唱歌tts(singing voice conversion)：so-vits-svc，NeuCoSVC
-5. XTTS 
-6. fish-speech
-7. ChatTTS： https://github.com/2noise/ChatTTS
-8. CosyVoice： https://github.com/FunAudioLLM/CosyVoice
+1. tts
+   - vits，vits2
+   - [bert-vits2学习.md](bert-vits2学习.md)
+   - gpt-sovits
+   - fish-speech
+   - CosyVoice： https://github.com/FunAudioLLM/CosyVoice
+2. 唱歌tts(singing voice conversion)：
+   - so-vits-svc
+   - NeuCoSVC
+3. 聊天tts
+   - ChatTTS： https://github.com/2noise/ChatTTS
+4. 其他
+   - XTTS
+   - openvoice与MeloTTS
+   - https://github.com/PaddlePaddle/PaddleSpeech
 
 ## 五. 数字人驱动
 1. [真人数字人项目](数字人.md)

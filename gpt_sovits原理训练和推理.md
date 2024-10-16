@@ -1,29 +1,29 @@
-# gpt_sovitsÔ­ÀíÑµÁ·ºÍÍÆÀí
+# gpt_sovitsåŸç†è®­ç»ƒå’Œæ¨ç†
 
-## Ò». ¸ÅÊö
-1. ÌØÕ÷£º
-    - ¼«ËÙÉùÒô¿ËÂ¡£º1·ÖÖÓÊı¾İ¡¢5-10·ÖÖÓÑµÁ·¡£
-    - ¿çÓïÖÖÉùÒô¿ËÂ¡£ºÖĞÈÕÓ¢
-    - ±äÉù£ºÎ´ÊµÏÖ
+## ä¸€. æ¦‚è¿°
+1. ç‰¹å¾ï¼š
+    - æé€Ÿå£°éŸ³å…‹éš†ï¼š1åˆ†é’Ÿæ•°æ®ã€5-10åˆ†é’Ÿè®­ç»ƒã€‚
+    - è·¨è¯­ç§å£°éŸ³å…‹éš†ï¼šä¸­æ—¥è‹±
+    - å˜å£°ï¼šæœªå®ç°
 
-## ¶ş. ÑµÁ·ºÍÍÆÀíÒ»´Î
-1. ½Ì³Ì£ºhttps://www.bilibili.com/video/BV12g4y1m7Uw
-2. 4¸ö½çÃæ
-   - Ö÷½çÃæ(ÑµÁ·½çÃæ)£ºruntime\python.exe webui.py :  http://0.0.0.0:9874
-   - ÉùÒô·ÖÀë½çÃæ£ºruntime\python.exe" tools/uvr5/webui.py £ºhttp://0.0.0.0:9873
-   - ÓïÑÔÊ¶±ğ½á¹ûĞ£¶Ô½çÃæ£ºruntime\python.exe tools/uvr5/webui.py:  http://0.0.0.0:9873
-   - ÍÆÀí½çÃæ£ºruntime\python.exe" GPT_SoVITS/inference_webui.py£ºhttp://0.0.0.0:9872
-3. Ê¹ÓÃÁ÷³Ì
-   1. ÑµÁ·Êı¾İÇåÀí£º![](.images/1fe6b2e2.png)
-   2. ÑµÁ·Êı¾İÔ¤´¦Àí£º![](.images/0b1e08d2.png)
-   3. ÑµÁ·ºÍÍÆÀí
-4 .Ä£ĞÍÈ¨ÖØÎÄ¼ş
+## äºŒ. è®­ç»ƒå’Œæ¨ç†ä¸€æ¬¡
+1. æ•™ç¨‹ï¼šhttps://www.bilibili.com/video/BV12g4y1m7Uw
+2. 4ä¸ªç•Œé¢
+   - ä¸»ç•Œé¢(è®­ç»ƒç•Œé¢)ï¼šruntime\python.exe webui.py :  http://0.0.0.0:9874
+   - å£°éŸ³åˆ†ç¦»ç•Œé¢ï¼šruntime\python.exe" tools/uvr5/webui.py ï¼šhttp://0.0.0.0:9873
+   - è¯­è¨€è¯†åˆ«ç»“æœæ ¡å¯¹ç•Œé¢ï¼šruntime\python.exe tools/uvr5/webui.py:  http://0.0.0.0:9873
+   - æ¨ç†ç•Œé¢ï¼šruntime\python.exe" GPT_SoVITS/inference_webui.pyï¼šhttp://0.0.0.0:9872
+3. ä½¿ç”¨æµç¨‹
+   1. è®­ç»ƒæ•°æ®æ¸…ç†ï¼š![](.images/1fe6b2e2.png)
+   2. è®­ç»ƒæ•°æ®é¢„å¤„ç†ï¼š![](.images/0b1e08d2.png)
+   3. è®­ç»ƒå’Œæ¨ç†
+4 .æ¨¡å‹æƒé‡æ–‡ä»¶
    - ![](.images/130e94fb.png)
 
-##  Èı. µ¼³öonnx
+##  ä¸‰. å¯¼å‡ºonnx
 .\runtime\python.exe .\GPT_SoVITS\onnx_export.py
 ![](.images/2f2b4aae.png)
-ÊäÈëÊä³ö³ß´ç£º
+è¾“å…¥è¾“å‡ºå°ºå¯¸ï¼š
 ```
 ssl inputs[0]:161920 x 1 x 1 x 1 x 2
 ssl outputs[0]:505 x 768 x 1 x 1 x 3
@@ -447,14 +447,14 @@ vits_inputs[2]:304640 x 1 x 1 x 1 x 2
 vits_outputs[0]:49920 x 1 x 1 x 1 x 1
 Program finished successfully.
 ```
-ÊäÈë£º
+è¾“å…¥ï¼š
 gpt_sovits(ref_seq, text_seq, ref_bert, text_bert, ref_audio_sr, ssl_content).detach().cpu().numpy()
 
 
-## ËÄ. Ô¤´¦Àí
+## å››. é¢„å¤„ç†
 1. get_tts_wav
-   - ÊäÈë1£¬²Î¿¼ÒôÆµ£ºinp_ref, prompt_text, prompt_language, 
-   - ÊäÈë2£¬Éú³ÉÎÄ±¾£ºtext, text_language, how_to_cut, 
-   - ÊäÈë3£¬GPT²ÉÑù²ÎÊı£ºtop_k, top_p, temperature, 
-   - ÊÇ·ñÎŞ²Î¿¼ÎÄ±¾£ºref_text_free
-2. bert-vitsµÄÔ¤´¦Àí£ºjieba£¬pinyin£¬g2p
+   - è¾“å…¥1ï¼Œå‚è€ƒéŸ³é¢‘ï¼šinp_ref, prompt_text, prompt_language, 
+   - è¾“å…¥2ï¼Œç”Ÿæˆæ–‡æœ¬ï¼štext, text_language, how_to_cut, 
+   - è¾“å…¥3ï¼ŒGPTé‡‡æ ·å‚æ•°ï¼štop_k, top_p, temperature, 
+   - æ˜¯å¦æ— å‚è€ƒæ–‡æœ¬ï¼šref_text_free
+2. bert-vitsçš„é¢„å¤„ç†ï¼šjiebaï¼Œpinyinï¼Œg2p

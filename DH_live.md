@@ -6,7 +6,6 @@
    - https://blog.csdn.net/jiaoyangwm/article/details/136570638
    - 对图像特征进行仿射变化，得到与音频同步的嘴部图像特征，然后解码得到
 2. 训练
-   - 1
    - ![](.images/1b96e981.png)
 3. 代码结构
    - 推理输入：crop_frame, ref_img(随机选择), deepspeech(音频特征)

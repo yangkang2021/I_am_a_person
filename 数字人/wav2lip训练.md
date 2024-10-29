@@ -91,3 +91,50 @@ preprocessed_root (lrs2_preprocessed)
      - https://github.com/numz/sd-wav2lip-uhq
      - https://github.com/yukyeongleee/Wav2Lip-HQ
     
+
+
+# wav2lip训练
+
+## 步骤
+
+1.  下载代码依赖和人脸检测模型
+2.  准备视频数据和filelist并预处理：preprocess.py
+    *   data
+        *   p1
+            *   v1.mp4
+            *   v2.mp4
+            *   v3.mp4
+        *   p2
+            *   v1.mp4
+            *   v2.mp4
+            *   v3.mp4
+        *   p3
+            *   v1.mp4
+            *   v2.mp4
+            *   v3.mp4
+3.  训练判别器：color\_syncnet\_train.py
+4.  训练生成器：wav2lip\_train.py
+
+## 数据集
+
+英文
+
+1.  LRS2：<http://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs2.html>
+2.  LRS3
+3.  LRW
+    中文
+4.  CMLR：
+    *   <https://github.com/zzj1111/Preprocessed-CMLR-Dataset-For-Wav2Lip>
+    *   <https://blog.csdn.net/XieH123/article/details/136024830>
+
+## 参考：
+
+1.  项目代码
+    *   <https://github.com/Rudrabha/Wav2Lip>
+    *   <https://github.com/primepake/wav2lip_288x288>
+    *   <https://github.com/nghiakvnvsd/wav2lip384>
+    *   256x256
+    *   576x576
+2.  训练代码
+    *   <https://blog.csdn.net/XieH123/article/details/136024830>
+

@@ -1,14 +1,37 @@
-# 数字人
+# Talking head
 
-## 一. 概述
-- [数字人-01-方案概述](数字人-01-方案概述.md)
-- [数字人项目今年终极目标](目标.md)
-
-## 二. sadtalker
-- [数字人-02-sadtalker简介](数字人-02-sadtalker简介.md)
-- [数字人-03-sadtalker源码解读](数字人-03-sadtalker源码解读.md)
-- [数字人-04-sadtalker模型结构与训练方法](数字人-04-sadtalker模型结构与训练方法.md)
-- [数字人-05-sadtalker性能测试与优化](数字人-05-sadtalker性能测试与优化.md)
-- [数字人-06-sadtalker最佳实践](数字人-06-sadtalker最佳实践.md)
-
-## 三. wav2lip
+## 开源
+1. wav2lip系列
+   - 96，256，288，384模型
+   - 视频数字人
+1. sadtalker等opentalker系列
+   - 照片数字人
+1. ADNerf-RADNerf-ERNerf系列
+   - 视频数字人
+1. IP_LAP
+   - 视频数字人
+   - https://github.com/Weizhi-Zhong/IP_LAP
+   - 相对于wav2lip，增加了landmarks_generator，据此剪裁没有方框效应。
+2. dreamtalk
+   - 照片数字人
+   - https://github.com/ali-vilab/dreamtalk
+   - https://modelscope.cn/models/damo/dreamtalk/files
+   - https://huggingface.co/camenduru/dreamtalk
+   - https://github.com/camenduru/dreamtalk-colab
+1. museV
+2. museTalk
+3. musePose
+3. AniPortrait
+4. Champ
+5. Easy-Wav2Lip
+6. EMO-不开源，千问App可用
+7. V-Express
+8. LivePortrait
+9. DINet
+10. Hallo,Hallo2
+9. PersonaTalk
+   - 看效果 超越之前所有，没开源网站和论文
+   - https://grisoon.github.io/PersonaTalk/
+   - https://arxiv.org/pdf/2409.05379
+   - 把注意力机制引入到数字人模型
+   - 加入了几何信息，geo比关键点有更多细节

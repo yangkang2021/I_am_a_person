@@ -2,32 +2,33 @@
 实时互动GPT数字人
 
 ## 零. 数据预处理
-1. 人脸检测分割
+1. 视频分段
    - TransNetV2：最好的镜头分割模型
+1. 人脸人体检测识别
+   - insightface + buffalo_l：人脸检测、识别、对齐、人脸属性。
+   - https://github.com/1adrianb/face-alignment：里面有人脸检测和对齐。 wav2lip用的这个
+   - yolov8n-face：wav2lip-256用的这个
+   - openface
+2. 分割与抠图Matting 
    - face-parsing
    - DeepLabV3
    - https://github.com/PeterL1n/RobustVideoMatting
+   - 最强AI一键抠图，BiRefNet V2
+   - SAM2
+   - https://github.com/ZHKKKe/MODNet
 2. 表情识别
    - 基于图像的：
      - https://github.com/WiseGeorge/Fast-Facial-Emotion-Monitoring-FFEM-Package
    - 基于文本的：gpt
 
 ## 一. 数字人形象生成与定制
-1. [人体姿态估计和渲染](人体姿态估计和渲染.md)
-   - 一款动作视频生成项目：MimicMotion
-1. [动作与动捕](动作与动捕/数字人动作与换装换衣试穿.md)
 1. [视频生成](视频生成/视频生成.md)
 2. [换脸](faceSwap/换脸.md)
 1. https://github.com/modelscope/facechain.git
-1. https://github.com/ZHKKKe/MODNet
 1. AI绘图（stableDiffusion）
    - [AI绘图系列](stableDiffusion/README.md)
    - [AI绘画的应用方向](stableDiffusion/AI绘画的应用方向.md)
    - sd，mj，flux，即梦
-1. 人脸人体检测识别
-   - insightface+buffalo_l：人脸检测、识别、对齐、人脸属性。
-   - https://github.com/1adrianb/face-alignment：里面有人脸检测和对齐。 wav2lip用的这个
-   - yolov8n-face：wav2lip-256用的这个
 
 ## 二. 数字人输入--语音识别
 1. [AI语音-01-概述](ASR-TTS/AI语音-01-概述.md)
@@ -70,6 +71,7 @@
 
 ## 五. 数字人驱动
 1. [真人数字人项目](数字人/README.md)
+3. [动捕](动作与动捕/README.md)
 1. 虚拟数字人
    - [虚幻引擎MetaHuman数字人](ue/README.md)
    - [ue和unity数字人.md](ue/ue和unity数字人.md)
@@ -80,7 +82,6 @@
    - https://machinelearning.apple.com/research/hugs
    - 训练45秒，渲染300+FPS！MVSGaussian：高效泛化的混合Gaussian
    - 超越AnimateAnyone！Meta提出全身3D虚拟人ExAvatar,可由简短视频建模转化为3D数字形象
-3. [动捕](动作与动捕/动捕.md)
 
 ## 六. 部署
 1. [梅尔普算法及其python和c++实现](梅尔普算法及其python和c++实现.md)

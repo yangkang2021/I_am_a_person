@@ -16,20 +16,28 @@
    - 最强AI一键抠图，BiRefNet V2
    - SAM2
    - https://github.com/ZHKKKe/MODNet
+2. 去字幕
+   - https://github.com/YaoFANGUK/video-subtitle-remover
 2. 表情识别
    - 基于图像的：
      - https://github.com/WiseGeorge/Fast-Facial-Emotion-Monitoring-FFEM-Package
    - 基于文本的：gpt
+2. ocr
+   - https://github.com/Ucas-HaoranWei/GOT-OCR2.0.git
+   - https://github.com/PaddlePaddle/PaddleOCR
+   - https://github.com/jingsongliujing/OnnxOCR
+   - https://kekxv.github.io/2022/07/30/OCR-%E4%BA%BA%E8%84%B8%E7%AE%97%E6%B3%95-opencv-dnn/
 
 ## 一. 数字人形象生成与定制
 1. [视频生成](视频生成/视频生成.md)
 2. [换脸](faceSwap/换脸.md)
-1. https://github.com/modelscope/facechain.git
 1. AI绘图（stableDiffusion）
    - [AI绘图系列](stableDiffusion/README.md)
    - [AI绘画的应用方向](stableDiffusion/AI绘画的应用方向.md)
    - sd，mj，flux，即梦
-
+3. 写真生成
+   - https://github.com/modelscope/facechain.git
+   
 ## 二. 数字人输入--语音识别
 1. [AI语音-01-概述](ASR-TTS/AI语音-01-概述.md)
 1. [k2语音识别.md](1.语音识别/k2语音识别.md)
@@ -61,6 +69,7 @@
 2. 唱歌tts(singing voice conversion)：
    - so-vits-svc
    - NeuCoSVC
+   - https://github.com/Zejun-Yang/AniPortrait
 3. 聊天tts
    - ChatTTS： https://github.com/2noise/ChatTTS
 4. 其他

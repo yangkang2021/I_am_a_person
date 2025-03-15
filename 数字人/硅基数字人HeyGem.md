@@ -4,10 +4,10 @@
 > https://github.com/GuijiAI/HeyGem.ai
 
 ## 一. 先说结论
-我的结论：没有源码有模型，效果还行，断网能用
+我的结论：没有核心源码，有模型，效果还行，断网能用。
 
 ## 二. 概览
-1. 客户端：github全是前端vue.js代码，用electron-vite打包成一个pc本地软件运行。
+1. 客户端：开源了源码，github全是前端vue.js代码，用electron-vite打包成一个pc本地软件运行。
 2. 服务端： 提供三个docker镜像
    - face2face： 硅基的sdk，数字人对口型
    ![img_2.png](img_2.png)

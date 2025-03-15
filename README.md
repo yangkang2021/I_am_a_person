@@ -27,6 +27,8 @@
    - https://github.com/PaddlePaddle/PaddleOCR
    - https://github.com/jingsongliujing/OnnxOCR
    - https://kekxv.github.io/2022/07/30/OCR-%E4%BA%BA%E8%84%B8%E7%AE%97%E6%B3%95-opencv-dnn/
+1. 图像视频风格转换
+   - ebsynth
 
 ## 一. 数字人形象生成与定制
 1. [视频生成](视频生成/视频生成.md)
@@ -57,15 +59,18 @@
    - gemna2b
 
 ## 四. 数字人讲话唱歌--语音合成
+>排行榜： https://huggingface.co/spaces/Pendrokar/TTS-Spaces-Arena
+
 1. tts
    - vits，vits2
    - [bert-vits2](bert-vits2学习.md)
    - gpt-sovits
-   - fish-speech
-   - CosyVoice： https://github.com/FunAudioLLM/CosyVoice
+   - fish-speech V1.5
+   - CosyVoiceV1,V2： https://github.com/FunAudioLLM/CosyVoice
    - F5
    - maskgct牛逼：https://maskgct.github.io/,https://github.com/open-mmlab/Amphion/tree/main/models/tts/maskgct
    - Matcha-TTS
+   - kokoro
 2. 唱歌tts(singing voice conversion)：
    - so-vits-svc
    - NeuCoSVC

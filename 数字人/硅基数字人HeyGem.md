@@ -4,7 +4,8 @@
 > https://github.com/GuijiAI/HeyGem.ai
 
 ## 一. 先说结论
-我的结论：没有核心源码，有模型，效果还行，断网能用。
+- 我的结论：没有核心源码，有模型，效果还行，断网能用。
+- 完整的功能：声音克隆 + 数字人视频对口型。
 
 ## 二. 概览
 1. 客户端：开源了源码，github全是前端vue.js代码，用electron-vite打包成一个pc本地软件运行。
@@ -20,7 +21,7 @@
    - 结合了开源的一个tts和开源一个的语音识别，同时提供封装了硅基数字人的sdk一起作为服务，为前端界面提供接口。
 
 ## 三. 部署
-1. 需求
+1. 硬件
    - 需要超100G硬盘空间 
    - 需要大内存 
    - 需要显卡
@@ -34,7 +35,7 @@
 ![img_1.png](img_1.png)
 ![img.png](img.png)
 1. 核心的代码都没有源码： 如service.trans_dh_service
-1. 加密反思：用cpython把python编译成c和so文件
+1. 加密方式：用cpython把python编译成c和so文件
 1. 模型:
    - wenet+dinet+人脸检测对齐解析修复：模型先从wenet得到关键点，再decoder成face
    - pth没有加密

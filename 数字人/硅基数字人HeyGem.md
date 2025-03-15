@@ -31,7 +31,7 @@
    - 内存不能太小，不然asr启动不了
    - 磁盘不能太小，不然docker镜像下载不了
 
-## 四. 代码分析
+## 四. 对口型模型的代码分析
 ![img_1.png](img_1.png)
 ![img.png](img.png)
 1. 核心的代码都没有源码： 如service.trans_dh_service

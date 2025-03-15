@@ -1,5 +1,5 @@
 # 硅基数字人HeyGem.ai
-> 分析估计最新开源的HeyGem
+> 分析硅基最新开源的数字人项目HeyGem
 > 
 > https://github.com/GuijiAI/HeyGem.ai
 
@@ -36,7 +36,7 @@
 1. 核心的代码都没有源码： 如service.trans_dh_service
 1. 加密反思：用cpython把python编译成c和so文件
 1. 模型:
-   - wnet+dinet+人脸检测对齐解析修复：模型先从wenet得到关键点，再decoder成face
+   - wenet+dinet+人脸检测对齐解析修复：模型先从wenet得到关键点，再decoder成face
    - pth没有加密
    - 硅基还是喜欢wenet提取音频特征
    

@@ -8,14 +8,24 @@
    - insightface + buffalo_l：人脸检测、识别、对齐、人脸属性。
    - https://github.com/1adrianb/face-alignment：里面有人脸检测和对齐。 wav2lip用的这个
    - yolov8n-face：wav2lip-256用的这个
-   - openface
+   - openface：dinet用的这个
+   - SCRFD ： udh用的这个
+   - mediapipe..solutions.face_detection : DH_Live用的
+   - yoloface_v5m: sonic用的
+1. [数字人音频特征模型](ASR-TTS/数字人音频特征模型.md)
 2. 分割与抠图Matting 
+   - 最强AI一键抠图，BiRefNet V2
+   - segnext 
+   - paddleseg
    - face-parsing
    - DeepLabV3
    - https://github.com/PeterL1n/RobustVideoMatting
    - 最强AI一键抠图，BiRefNet V2
    - SAM2
    - https://github.com/ZHKKKe/MODNet
+   - segformer
+   - efficientvit-seg
+   - 后期用 guidedfiler 或 jointbilinearfilter 
 2. 去字幕
    - https://github.com/YaoFANGUK/video-subtitle-remover
 2. 表情识别
